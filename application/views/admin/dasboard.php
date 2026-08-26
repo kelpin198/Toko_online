@@ -1,3 +1,9 @@
+<?php
+/**
+ * Dashboard admin untuk melihat ringkasan toko.
+ * Menampilkan statistik produk, invoice, pendapatan, dan pesanan terbaru.
+ */
+?>
 <div class="container-fluid">
     <div class="d-flex justify-content-end mb-3">
         <button type="button" class="btn btn-secondary btn-lg" onclick="window.print()">
@@ -8,6 +14,7 @@
     <!-- Content Row -->
     <div class="row">
 
+        <!-- Blok 1: Statistik total produk yang saat ini tersedia di database -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
@@ -24,6 +31,7 @@
             </div>
         </div>
 
+        <!-- Blok 2: Statistik total invoice / transaksi yang sudah masuk -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-success shadow h-100 py-2">
                 <div class="card-body">
@@ -40,6 +48,7 @@
             </div>
         </div>
 
+        <!-- Blok 3: Statistik jumlah item yang sudah terjual / jumlah record di tb_pesanan -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
@@ -56,6 +65,7 @@
             </div>
         </div>
 
+        <!-- Blok 4: Statistik total pendapatan dari seluruh transaksi -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-warning shadow h-100 py-2">
                 <div class="card-body">
@@ -75,6 +85,7 @@
     </div>
 
     <div class="row">
+        <!-- Tabel pesanan terbaru: menampilkan data invoice yang terakhir dibuat -->
         <div class="col-xl-8 col-lg-7">
             <div class="card shadow mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">

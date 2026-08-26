@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman registrasi akun pelanggan baru.
+ * Form ini digunakan untuk mendaftarkan user ke sistem.
+ */
+?>
 <body class="bg-gradient-primary">
 
     <div class="container">

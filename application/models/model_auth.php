@@ -1,4 +1,8 @@
 <?php
+/**
+ * Model autentikasi.
+ * Mengecek username dan password user yang login ke sistem.
+ */
 class model_auth extends CI_Model {
 
     public function cek_login()

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Controller untuk manajemen data barang di sisi admin.
+ * Menambah, mengedit, menampilkan, dan menghapus produk toko.
+ */
 class data_barang extends CI_Controller {
 public function __construct()
     {

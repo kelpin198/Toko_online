@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * Controller default halaman utama aplikasi.
+ * Menampilkan daftar produk yang tersedia di landing page toko.
+ */
 class Welcome extends CI_Controller {
 
 	/**

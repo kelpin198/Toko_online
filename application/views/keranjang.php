@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman keranjang belanja user.
+ * Menampilkan daftar produk yang sudah dipilih, jumlah, harga, dan total pembayaran.
+ */
+?>
 <div class="container-fluid">
     <div class="card shadow-sm border-0 mb-4">
         <div class="card-body p-4">

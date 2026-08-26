@@ -1,4 +1,8 @@
 <?php
+/**
+ * Controller utama untuk halaman pelanggan.
+ * Mengelola tampilan produk, keranjang belanja, checkout, dan detail barang.
+ */
 class dasboard extends CI_Controller {
     public function __construct()
     {

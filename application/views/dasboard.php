@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman utama dashboard pelanggan.
+ * Menampilkan slider promosi dan list produk yang dapat dibeli.
+ */
+?>
 <div class="container-fluid">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">

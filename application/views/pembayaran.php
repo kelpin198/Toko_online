@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman pembayaran dan pengiriman.
+ * Mengambil total belanja, form alamat, serta pilihan jasa pengiriman dan bank.
+ */
+?>
 <div class="container-fluid">
    <div class="row">
     <div class="col-md-2"></div>

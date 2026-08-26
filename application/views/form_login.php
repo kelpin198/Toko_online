@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman form login user.
+ * Form untuk masuk ke aplikasi berdasarkan username dan password.
+ */
+?>
 <body class="bg-gradient-primary">
 
     <div class="container">

@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman konfirmasi pesanan setelah checkout berhasil.
+ * Menampilkan ringkasan pesanan yang sudah dibeli dan tombol aksi lanjutan.
+ */
+?>
 <div class="container-fluid">
     <?php if (!empty($pesanan)) : ?>
         <div class="card shadow-sm border-0 mb-4">

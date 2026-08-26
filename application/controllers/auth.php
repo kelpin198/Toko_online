@@ -1,4 +1,8 @@
 <?php
+/**
+ * Controller untuk proses autentikasi user.
+ * Menangani login, validasi form, dan redirect berdasarkan role user.
+ */
 class auth extends CI_Controller {
 
     public function login()

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Controller untuk menampilkan produk berdasarkan kategori.
+ * Setiap method menyiapkan data untuk halaman kategori tertentu.
+ */
 class kategori extends CI_Controller{
     public function elektronik()
     {

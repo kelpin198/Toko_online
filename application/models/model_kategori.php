@@ -1,4 +1,8 @@
 <?php
+/**
+ * Model untuk data produk berdasarkan kategori.
+ * Digunakan untuk menampilkan item sesuai jenis kategori yang dipilih user.
+ */
 class model_kategori extends CI_Model {
 
     public function data_elektronik()

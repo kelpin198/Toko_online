@@ -1,4 +1,8 @@
 <?php
+/**
+ * Model data barang.
+ * Mengelola operasi CRUD terhadap tabel tb_barang.
+ */
 class Model_barang extends CI_Model {
 
     public function tampil_data()

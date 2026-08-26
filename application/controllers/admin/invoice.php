@@ -1,4 +1,8 @@
 <?php
+/**
+ * Controller untuk melihat data invoice dan detail transaksi pelanggan.
+ * Digunakan oleh admin untuk memantau pesanan yang masuk.
+ */
 class invoice extends CI_Controller {
     public function __construct()
     {

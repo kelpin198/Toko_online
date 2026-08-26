@@ -1,3 +1,9 @@
+<?php
+/**
+ * Halaman detail produk.
+ * Menampilkan informasi lengkap barang beserta tombol tambah ke keranjang.
+ */
+?>
 <div class="container-fluid">
     <div class="card">
   <div class="card-header">

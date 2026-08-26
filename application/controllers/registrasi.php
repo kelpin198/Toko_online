@@ -1,4 +1,8 @@
 <?php
+/**
+ * Controller untuk halaman registrasi pengguna baru.
+ * Memvalidasi input form pendaftaran dan menyimpan data ke database.
+ */
 class Registrasi extends CI_Controller {
     
     public function index()
